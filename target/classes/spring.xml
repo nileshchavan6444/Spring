@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+	<!-- <bean id="veh"  class="com.demo.core.Car"></bean> -->
+	<!--  <bean id="veh1"  class="com.demo.core.Bike"></bean>-->
+	 
+	<bean id="tyre" class="com.demo.core.Tyre">
+		<constructor-arg type="String" value="Ceat"/>
+		<constructor-arg type="String" > 
+			<value>1</value>
+		</constructor-arg>	
+		<constructor-arg type="int" value="33333"></constructor-arg>
+	</bean> 
+	<!-- 
+	<bean id="tyre1" class="com.demo.core.Tyre" >
+		<property name="brand" value="Setter"></property>
+		<property name="size" value="4"></property>
+	</bean> -->
+	
+</beans>
