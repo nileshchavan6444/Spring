@@ -7,12 +7,12 @@ public class Tyre {
 	private int price;
 
 	
-	public Tyre() {
+	private Tyre() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Tyre(String brand, String size, int price) {
+	private Tyre(String brand, String size, int price) {
 		System.out.println("in tyre construct");
 		this.brand = brand;
 		this.size = size;
